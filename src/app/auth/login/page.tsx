@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import "./globals.css"
+import "../../globals.css";
 
 export default function LoginPage() {
   const [form, setForm] = useState({ email: '', password: '' });

@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import "./globals.css";
+import "../globals.css";
 
 export default function DashboardPage() {
   // Placeholder state for user and dashboard data
